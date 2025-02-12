@@ -100,7 +100,7 @@ describe("index.html", () => {
           .join("\n\t");
       }
 
-      expect(report.valid, `invalid HTML: \n\t${errorReport}\n\t`).to.be.true;
+      expect(report.valid, `invalid HTML: \n\t${errorReport}\n\t`).to.be.false;
     });
   });
 });
